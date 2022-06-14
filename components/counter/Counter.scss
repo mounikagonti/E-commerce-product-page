@@ -1,0 +1,22 @@
+.counter {
+  display: flex;
+  margin-top: 20px;
+
+  .decrement_btn {
+    border: none;
+    color: #ff7d19;
+    font-size: 20px;
+    background: transparent;
+  }
+  .count_number {
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  .increment_btn {
+    margin-left: 20px;
+    border: none;
+    color: #ff7d19;
+    font-size: 20px;
+    background: transparent;
+  }
+}

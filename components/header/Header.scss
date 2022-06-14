@@ -1,0 +1,29 @@
+.header {
+  .container {
+    max-width: 1320px;
+    // background-color: red;
+    .header_wrapper {
+      @include displayCenter(center, space-between);
+      margin-top: 20px;
+      .header_left {
+        @include displayCenter(center, center);
+
+        h1 {
+          margin-right: 40px;
+        }
+        .nav_item {
+          margin-left: 15px;
+        }
+      }
+      .header_right {
+        @include displayCenter(center, center);
+        .profile {
+          margin-left: 30px;
+          border-radius: 50%;
+          width: 50px;
+          height: 50px;
+        }
+      }
+    }
+  }
+}

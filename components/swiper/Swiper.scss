@@ -1,0 +1,22 @@
+.slider {
+  .slider_top {
+    position: relative;
+    width: 90%;
+    height: 400px;
+   
+  }
+  .slider_bottom {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    .thumbnail {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      overflow: hidden;
+      border: 2px solid #ff7d19;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  }
+}
